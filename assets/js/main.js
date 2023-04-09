@@ -74,3 +74,13 @@ const scrollUp = () => {
 };
 
 window.addEventListener("scroll", scrollUp);
+
+// THEME
+const themeButton = document.getElementById("theme-button");
+const darkTheme = "dark-theme";
+const iconTheme = "bx-sun";
+
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle(darkTheme);
+  themeButton.classList.toggle(iconTheme);
+});
