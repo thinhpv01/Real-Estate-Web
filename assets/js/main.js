@@ -84,3 +84,23 @@ themeButton.addEventListener("click", () => {
   document.body.classList.toggle(darkTheme);
   themeButton.classList.toggle(iconTheme);
 });
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+});
+
+sr.reveal(`.home__title, .subscribe__container,.footer__container`, {
+  delay: 500,
+});
+
+sr.reveal(`.home__description`, { delay: 500 });
+sr.reveal(`.home__search`, { delay: 600 });
+sr.reveal(`.home__value`, { delay: 700 });
+sr.reveal(`.home__images`, { delay: 800, origin: "bottom" });
+sr.reveal(`.logos__img`, { delay: 100 });
+sr.reveal(`.value__img ,.contact__content`, { delay: 300, origin: "left" });
+sr.reveal(`.value__images`, { delay: 300, origin: "left" });
+sr.reveal(`.value__content , .contact__images`, { origin: "right" });
