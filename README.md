@@ -1,4 +1,4 @@
-## 🏡 Real State Website
+## 🏡 Real Estate Website
 
 - Project Using HTML CSS & JavaScript.
 - Using ScrollReveal for animations when scrolling.
